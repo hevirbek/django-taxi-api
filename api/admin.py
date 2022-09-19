@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Taxi, TaxiRequest
+
+
+admin.site.register(Taxi)
+admin.site.register(TaxiRequest)
